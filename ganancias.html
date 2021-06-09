@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Registro de pago por transferencia</title>
+    <title>Ganancias</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/style-1.css">
@@ -16,25 +16,64 @@
 </head>
 
 <body class="body-registroClt">
+
+    <!--Barra de navegación-->
     <div class="nav-titulo-pagina-principal">
         <a class="a-pagina-inicio" href="index.html"><strong>IZ</strong></a>
     </div>
     <div>
-        <h1 class="h1-titulo">Calcular ganancias</h1>
+        <h1 class="h1-titulo">Ganancias</h1>
     </div>
+
+    <!--Formulario-->
     <form class="needs-validation" autocomplete="off" novalidate="">
-        <div class="col-3 div-pt">
-            <div class="div-datos">
-                <label class="form-label">Fecha de inicio</label>
-                <input class="form-control" type="date" id="txtDate" name="txtDate" required="">
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback"></div>
-            </div>
-        </div>
-        <div class="text-center">
-            <button class="btn btn-outline-dark btn-rgC" type="submit">Registrar datos</button>
+        <div class="campos">
+            <ul class="form-ganancias">
+                <li>
+                    <div class="col-7 centrado">
+                        <label class="form-label">Fecha de inicio</label>
+                        <input class="form-control" type="date" id="txtInicio" name="txtInicio" required="">
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-7 centrado">
+                        <label class="form-label">Fecha de fin</label>
+                        <input class="form-control" type="date" id="txtFin" name="txtFin" required="">
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>                  
+                </li>
+                <li>
+                    <button class="btn btn-outline-dark" type="submit">Calcular ganancias</button>
+                </li>
+            </ul>
         </div>
     </form>
+
+    <!--Ventas y ganancias-->
+    <section id="seccionVentas" name="seccionVentas">
+        <table class="table table-hover" id="tVentas" name="tVentas">
+            <thead>
+                <tr>
+                    <th>Folio</th>
+                    <th>Fecha</th>
+                    <th>Monto total</th>
+                    <th>Monto pagado</th>
+                    <th>Cliente</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>33900</td>
+                <td>10-Jul-2000</td>
+                <td>$5000</td>
+                <td>$4000</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </section>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/validacion.js"></script>

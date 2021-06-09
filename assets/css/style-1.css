@@ -112,7 +112,7 @@
     float: left;
   }
   
-  .div-pt{
+  .centrado{
     position: absolute;
     left: 0;
     right: 0;
@@ -219,4 +219,26 @@
     bottom: 0;
     right: 0;
     left: 0;
+  }
+
+
+  /* Ganancias */
+
+  .form-ganancias{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .form-ganancias li{
+    list-style: none;
+  }
+
+  .form-ganancias .btn{
+    margin-top: 2em;
+  }
+
+  .campos{
+    margin: 2em;
   }
