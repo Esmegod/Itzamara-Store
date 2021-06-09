@@ -1,0 +1,2 @@
+# Itzamara Store
+ Para una mujer emprendedora que desea mantener una buena organización y ofrecer una mejor experiencia a sus clientes, Itzamara Store es un sistema que brinda la posibilidad de  realizar compras de joyería y productos de belleza; a diferencia de la forma convencional de ventas por catalogo, este producto se enfoca en las necesidades del vendedor para cubrir los deseos de sus compradores utilizando un sitio web. 
