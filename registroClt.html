@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Registro de clientes</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/style-inicio-sesion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/style-index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -17,26 +17,29 @@
 </head>
 
 <body class="body-registroClt">
+    <div class="nav-titulo-pagina-principal">
+        <a class="a-pagina-inicio" href="index.html"><strong>IZ</strong></a>
+    </div>
     <div>
-        <h1 class="titulo-registroClt">Registrarme en itzamara store</h1>
+        <h1 class="h1-registroClt">Registrarme en itzamara store</h1>
     </div>
     <form class="needs-validation form-datos-rc" autocomplete="off" novalidate="">
         <div class="col-6 div-txt">
             <div class="div-datos">
                 <label class="form-label">Nombre</label>
-                <input class="form-control" type="text" id="txtNombre" pattern="[A-Za-z ]{3,30}" required="" maxlength="30" minlength="3">
+                <input class="form-control" type="text" id="txtNombre" name="txtNombre" pattern="[A-Za-z ]{3,30}" required="" maxlength="30" minlength="3">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>
             <div class="div-datos">
                 <label class="form-label">Apellido Paterno</label>
-                <input class="form-control" type="text" id="txtApPat" required="" maxlength="20" minlength="3" pattern="[A-Za-z]{3,20}">
+                <input class="form-control" type="text" id="txtApPat" name="txtApPat" required="" maxlength="20" minlength="3" pattern="[A-Za-z]{3,20}">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>
             <div class="div-datos">
                 <label class="form-label">Apellido Materno</label>
-                <input class="form-control" type="text" id="txtApMat" minlength="3" maxlength="20" pattern="[A-Za-z]{3,20}" required="">
+                <input class="form-control" type="text" id="txtApMat" name="txtApMat" minlength="3" maxlength="20" pattern="[A-Za-z]{3,20}" required="">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>
@@ -44,18 +47,18 @@
         <div class="col-6 div-txt">
             <div class="div-datos">
                 <label class="form-label">Correo electrónico</label>
-                <input class="form-control" type="email" id="txtCorreo" required="" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <input class="form-control" type="email" id="txtCorreo" name="txtCorreo" required="" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>
             <div class="div-datos">
                 <label class="form-label">Teléfono celular (WhatsApp)</label>
-                <input class="form-control" type="tel" id="txtTel" pattern="[0-9]{10,13}" required="" maxlength="13">
+                <input class="form-control" type="tel" id="txtTel" name="txtTel" pattern="[0-9]{10,13}" required="" maxlength="13">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>
             <div class="div-datos"><label class="form-label">Contraseña</label>
-                <input class="form-control" type="text" id="txtContra" maxlength="8" required="" pattern="[A-Za-z0-9]{4,8}">
+                <input class="form-control" type="text" id="txtContra" name="txtContra" maxlength="8" required="" pattern="[A-Za-z0-9]{4,8}">
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback"></div>
             </div>

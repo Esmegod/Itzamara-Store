@@ -79,7 +79,6 @@
 }
 
 .contact-clean form .btn-primary {
-  background-color: #055ada !important;
   margin-top: 15px;
   color: #fff;
 }
@@ -104,6 +103,7 @@
 
 .body-registroClt {
   font-family: 'Inconsolata', monospace;
+  font-size: 20px;
 }
 
 .div-txt {
@@ -117,9 +117,9 @@
   display: block;
 }
 
-.titulo-registroClt {
+.h1-registroClt {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   color: #2d2b2b;
   margin: 2%;
   border-bottom: 2px solid #e7abad;
@@ -133,7 +133,28 @@
   margin: 2%;
 }
 
+.select-bancos{
+  margin-left: 2%;
+}
+
 .btn-rgC {
   margin: 2%;
 }
 
+.nav-titulo-pagina-principal{
+  padding: 1%;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 150%;
+  background-color: #2d2b2b;
+}
+
+.nav-titulo-pagina-principal a{
+  color: #fef9fb !important;
+  text-decoration: none;
+}
+
+.nav-titulo-pagina-principal a:hover{
+  color: #e7abad !important;
+  text-decoration: none;
+}
