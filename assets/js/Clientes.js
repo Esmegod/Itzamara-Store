@@ -1,8 +1,9 @@
 window.addEventListener("load", load, false);
 
 function load() {
-    document.getElementById("op1").addEventListener("click", function () { mostrar(1); });
-    document.getElementById("op2").addEventListener("click", function () { mostrar(2); });
+    //document.getElementById("op1").addEventListener("click", function () { mostrar(1); });
+    document.getElementById("btnRegresar").addEventListener("click", function () { mostrar(1); });
+    //Se les asigana a todos los botones con Name="actualizar", la función mostrar(2);
     let botones = [];
     botones = document.getElementsByName("actualizar");
     for (let i = 0; i < botones.length; i++){
@@ -10,6 +11,7 @@ function load() {
     }
     document.getElementById("op1").style.color =  "#2d2b2b";
     document.getElementById("op2").style.color =  "#2d2b2b";
+    mostrar(1);
 }
 
 function mostrar(i) {

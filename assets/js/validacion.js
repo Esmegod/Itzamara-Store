@@ -1,5 +1,6 @@
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 // Example starter JavaScript for disabling form submissions if there are invalid fields
+
 (function () {
   'use strict'
 
@@ -14,15 +15,11 @@
           event.preventDefault()
           event.stopPropagation()
         }
-        else{
-          /*Aqui ya está todo bieeeeen*/
-          alert("El cliente ha sido actualizado");
-        }
-
         form.classList.add('was-validated')
       }, false)
     })
 })()
+
 
 
 

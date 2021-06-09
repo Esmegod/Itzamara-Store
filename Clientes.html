@@ -16,7 +16,7 @@
         <h1>Clientes</h1>
     </div>
     <div id= "opciones">
-        <ul>
+        <ul class="dos-apartados">
             <li class="op" id="op1">Mis clientes</li>
             <li class="op" id="op2">Actualizar</li>
         </ul>
@@ -75,7 +75,7 @@
             <div id="FC1">
                 <div>
                     <label for="lClave">Clave</label>
-                    <input type="text" class="form-control" id="tClave"  required>
+                    <input type="text" class="form-control" id="tClave" required="required" readonly="readonly">
                     <div class="valid-feedback"></div>
                     <div class="invalid-feedback"></div>
                 </div> 
@@ -103,11 +103,12 @@
                 </div>
             </div>
             <div id="FC3">
+                <button type="button" class="btn btn-outline-dark" id="btnRegresar">Regresar</button>
                 <button type="submit" class="btn btn-outline-dark" id="btnActualizar">Actualizar</button>
             </div>
         </form> 
     </div>
-    <script src="assets/js/validacion.js"></script>
+    <script src="assets/js/val-clientes.js"></script>
 </body>
 </html>
         
