@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body class="body-registroClt">
+<body class="body-form">
 
     <!--Barra de navegación-->
     <div class="nav-titulo-pagina-principal">
@@ -54,24 +54,34 @@
 
     <!--Ventas y ganancias-->
     <section id="seccionVentas" name="seccionVentas">
-        <table class="table table-hover" id="tVentas" name="tVentas">
-            <thead>
+        <h1 class="h1-titulo">Resumen de ventas</h1>
+        <div class="tabla-ventas">
+            <table class="table table-hover" id="tVentas" name="tVentas">
+                <thead>
+                    <tr>
+                        <th>Folio</th>
+                        <th>Fecha</th>
+                        <th>Monto total</th>
+                        <th>Monto pagado</th>
+                        <th>Cliente</th>
+                    </tr>
+                </thead>
                 <tr>
-                    <th>Folio</th>
-                    <th>Fecha</th>
-                    <th>Monto total</th>
-                    <th>Monto pagado</th>
-                    <th>Cliente</th>
+                    <td>33900</td>
+                    <td>10-Jul-2000</td>
+                    <td>$5000</td>
+                    <td>$4000</td>
+                    <td>4</td>
                 </tr>
-            </thead>
-            <tr>
-                <td>33900</td>
-                <td>10-Jul-2000</td>
-                <td>$5000</td>
-                <td>$4000</td>
-                <td>4</td>
-            </tr>
-        </table>
+                <tr>
+                    <td>2565</td>
+                    <td>10-Jul-2001</td>
+                    <td>$5020</td>
+                    <td>$4000</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

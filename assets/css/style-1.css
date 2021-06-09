@@ -101,7 +101,7 @@
     margin-bottom: 5%;
   }
   
-  .body-registroClt {
+  .body-form {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
   }
@@ -242,3 +242,9 @@
   .campos{
     margin: 2em;
   }
+
+  .body-form .tabla-ventas{
+    font-size: 15px;
+    padding: 2%;
+  }
+
